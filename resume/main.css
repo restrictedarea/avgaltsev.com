@@ -210,7 +210,7 @@ body {
 
 @media screen and (max-width: 980px) {
 	body {
-		font-size: 11px;
+		font-size: 13px;
 	}
 
 	.header__contact {
@@ -236,10 +236,17 @@ body {
 		display: block;
 		float: right;
 		width: auto;
+		margin-left: 1.0em;
 	}
 
 	.timeline__description {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 11px;
 	}
 }
 
