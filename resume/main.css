@@ -1,0 +1,211 @@
+/* Reset */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	outline: 0;
+	border: 0;
+	padding: 0;
+
+	position: relative;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+
+/* Typography */
+
+body {
+	line-height: 1.7;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0.5em;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4,
+h5,
+h6 {
+	font-size: 1.0em;
+}
+
+p,
+ol,
+ul {
+	margin-bottom: 0.5em;
+	font-size: 1.0em;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 2.0em;
+}
+
+a {
+	color: #a0a0a0;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+b,
+strong {
+	font-weight: 400;
+}
+
+
+/* Markup */
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2.0em;
+	font-size: 16px;
+}
+
+.header {
+}
+
+.header__title {
+	margin-bottom: 0;
+}
+
+.header__headline {
+	margin-bottom: 0.5em;
+	font-weight: 400;
+}
+
+.header__contacts {
+}
+
+.header__contact {
+	display: inline;
+	margin-left: 0;
+	margin-right: 2.0em;
+}
+
+.section {
+	margin-top: 2.0em;
+}
+
+.section__title {
+	border-bottom: 1px solid #000000;
+}
+
+.skills {
+}
+
+.skills__title {
+}
+
+.skills__list {
+	column-fill: balance;
+}
+
+.skills__list_2 {
+	columns: 2;
+}
+
+.skills__list_3 {
+	columns: 3;
+}
+
+.skills__list_4 {
+	columns: 4;
+}
+
+.timeline {
+	display: table;
+	width: 100%;
+}
+
+.timeline__event {
+	display: table-row;
+}
+
+.timeline__date {
+	display: table-cell;
+	width: 25%;
+}
+
+.timeline__description {
+	display: table-cell;
+}
+
+.experience {
+}
+
+.experience__position {
+	margin-bottom: 0;
+}
+
+.experience__employer {
+	margin-bottom: 0.5em;
+}
+
+.experience__location {
+}
+
+.education {
+}
+
+.education__degree {
+	margin-bottom: 0;
+}
+
+.education__university {
+	margin-bottom: 0.5em;
+}
+
+.education__location {
+}
+
+
+/* Printable */
+
+@media print {
+	body {
+		font-size: 11px;
+	}
+
+	.timeline__event {
+		page-break-inside: avoid;
+	}
+}
