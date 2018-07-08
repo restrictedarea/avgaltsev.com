@@ -10,6 +10,8 @@
 
 	position: relative;
 	box-sizing: border-box;
+
+	font-size: 1.0em;
 }
 
 html,
@@ -228,7 +230,6 @@ body {
 	.timeline__date {
 		display: block;
 		width: auto;
-		float: right;
 	}
 
 	.timeline__description {
