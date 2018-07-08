@@ -32,27 +32,30 @@ h3,
 h4,
 h5,
 h6 {
-	margin-bottom: 0.5em;
 	font-weight: 400;
 }
 
 h1 {
+	margin-bottom: 1.0em;
 	font-family: "Roboto Slab", sans-serif;
 	font-size: 1.5em;
 }
 
 h2 {
+	margin-bottom: 1.0em;
 	font-family: "Roboto Slab", sans-serif;
 	font-size: 1.2em;
 }
 
 h3 {
+	margin-bottom: 0.5em;
 	font-size: 1.1em;
 }
 
 h4,
 h5,
 h6 {
+	margin-bottom: 0.5em;
 	font-size: 1.0em;
 }
 
@@ -104,7 +107,7 @@ body {
 }
 
 .header__title {
-	margin-bottom: 0;
+	margin-bottom: 0.5em;
 }
 
 .header__headline {
@@ -126,10 +129,12 @@ body {
 }
 
 .section__title {
+	margin-bottom: 1.0em;
 	border-bottom: 1px solid #000000;
 }
 
 .skills {
+	margin-top: 1.0em;
 }
 
 .skills__title {
@@ -195,6 +200,40 @@ body {
 }
 
 .education__location {
+}
+
+
+/* Adaptive */
+
+@media screen and (max-width: 980px) {
+	.header__contact {
+		display: block;
+	}
+
+	.skills__list_2,
+	.skills__list_3,
+	.skills__list_4 {
+		columns: 1;
+	}
+
+	.timeline {
+		display: block;
+	}
+
+	.timeline__event {
+		display: block;
+		margin-top: 1.0em;
+	}
+
+	.timeline__date {
+		display: block;
+		width: auto;
+		float: right;
+	}
+
+	.timeline__description {
+		display: block;
+	}
 }
 
 
