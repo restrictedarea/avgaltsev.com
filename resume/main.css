@@ -229,12 +229,12 @@ body {
 
 	.timeline__event {
 		display: block;
-		float: right;
 		margin-top: 1.0em;
 	}
 
 	.timeline__date {
 		display: block;
+		float: right;
 		width: auto;
 	}
 
