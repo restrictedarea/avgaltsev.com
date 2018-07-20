@@ -257,8 +257,4 @@ body {
 	body {
 		font-size: 11px;
 	}
-
-	.timeline__event {
-		page-break-inside: avoid;
-	}
 }
