@@ -1,0 +1,13 @@
+{
+	"name": "avgaltsev.com",
+	"version": "0.0.0",
+	"description": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"postcss-exports-webpack-plugin": "git+ssh://git@github.com/avgaltsev/postcss-exports-webpack-plugin.git",
+		"typescript": "^2.9.2",
+		"webpack": "^4.16.1"
+	}
+}
