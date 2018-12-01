@@ -8,7 +8,6 @@
 	border: 0;
 	padding: 0;
 
-	position: relative;
 	box-sizing: border-box;
 }
 
@@ -208,19 +207,24 @@ body {
 
 /* Adaptive */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
 	body {
 		font-size: 13px;
 	}
+}
 
+@media screen and (max-width: 800px) {
 	.header__contact {
 		display: block;
 	}
 
-	.skills__list_2,
+	.skills__list_2 {
+		columns: 1;
+	}
+
 	.skills__list_3,
 	.skills__list_4 {
-		columns: 1;
+		columns: 2;
 	}
 
 	.timeline {
@@ -247,6 +251,11 @@ body {
 @media screen and (max-width: 480px) {
 	body {
 		font-size: 11px;
+	}
+
+	.skills__list_3,
+	.skills__list_4 {
+		columns: 1;
 	}
 }
 
